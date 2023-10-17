@@ -23,7 +23,7 @@ Run this project using npm.
 
 In order to udpate your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
 Follow the details below from the documentation
-a) POST /register
-b) GET /generate-api-key
-c) POST /get-auth-token
+1) POST /register
+2) GET /generate-api-key
+3) POST /get-auth-token
 
