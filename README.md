@@ -21,7 +21,7 @@ Run this project using npm.
 3) const yourAPIKey = "";
 4) const yourBearerToken = "";
 
-In order to udpate your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
+In order to update your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
 Follow the details below from the documentation
 1) POST /register
 2) GET /generate-api-key
