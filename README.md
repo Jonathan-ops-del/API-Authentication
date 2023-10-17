@@ -3,7 +3,6 @@
 The purpose of this Web Application is demonstrate the use of API Authentication. The third party API is provided by Angela Yu's Udemy course - https://secrets-api.appbrewery.com -.
 
 This API provided by Angela has documentation providing details on how to access her resources. In this section of her course we learn 4 parts of API Authentication - 1) No Authentication 2) Basic Authentication 
-
 3) API Key Authorization 4) Token-Based Authentication. When you have the Web Application running  you will see 4 buttons each representing the level of Authentication to access the API information when you click on the
 
 individual buttons.
