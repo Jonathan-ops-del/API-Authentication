@@ -18,7 +18,8 @@ Run this project using npm.
 5) You can now go to your browser and enter "http://localhost:3000/" to view the application
 
 ***NOTE Before running the application , you will need to update the below values with your unique information - found on index.js
-// TODO: Replace the values below with your own before running this file.
+// TODO: Replace the values below with your own before running this file. Remember to create your .env file to hide your unqiue credentials.
+
 const yourUsername = "";
 const yourPassword = "";
 const yourAPIKey = "";

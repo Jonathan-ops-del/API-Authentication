@@ -1,15 +1,17 @@
 import express from "express";
 import axios from "axios";
+import 'dotenv/config'
+console.log(process.env)
 
 const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
 
 // TODO: Replace the values below with your own before running this file.
-const yourUsername = "Jonathan";
-const yourPassword = "iloveapena";
-const yourAPIKey = "ea3e8064-4c3c-4784-84f4-6af7c7c9acb2";
-const yourBearerToken = "93ed11b5-91fc-4fce-8161-8a90ab0e1bdd";
+const yourUsername = process.env.YOUR_USERNAME
+const yourPassword = process.env.PASSWORD
+const yourAPIKey = process.env.API_KEY
+const yourBearerToken = process.env.BEARER_TOKEN
 
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
