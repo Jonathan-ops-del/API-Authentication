@@ -3,10 +3,7 @@
 The purpose of this Web Application is demonstrate the use of API Authentication. The third party API is provided by Angela Yu's Udemy course - https://secrets-api.appbrewery.com -.
 
 This API provided by Angela has documentation providing details on how to access her resources. In this section of her course we learn 4 parts of API Authentication - 1) No Authentication 2) Basic Authentication 
-
-3) API Key Authorization 4) Token-Based Authentication. When you have the Web Application running  you will see 4 buttons each representing the level of Authentication to access the API information when you click on the
-
-individual buttons.
+3) API Key Authorization 4) Token-Based Authentication. When you have the Web Application running  you will see 4 buttons each representing the level of Authentication to access the API information when you click on the individual buttons.
 
 
 Run this project using npm.
@@ -25,9 +22,9 @@ const yourPassword = "";
 const yourAPIKey = "";
 const yourBearerToken = "";
 
-In order to udpate your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
+In order to update your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
 Follow the details below from the documentation
-POST /register
-GET /generate-api-key
-POST /get-auth-token
+1) POST /register
+2) GET /generate-api-key
+3) POST /get-auth-token
 
