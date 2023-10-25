@@ -17,10 +17,10 @@ Run this project using npm.
 ***NOTE Before running the application , you will need to update the below values with your unique information - found on index.js
 // TODO: Replace the values below with your own before running this file. Remember to create your .env file to hide your unqiue credentials.
 
-const yourUsername = "";
-const yourPassword = "";
-const yourAPIKey = "";
-const yourBearerToken = "";
+1) const yourUsername = "";
+2) const yourPassword = "";
+3) const yourAPIKey = "";
+4) const yourBearerToken = "";
 
 In order to update your values you will need to follow the documentation on - https://secrets-api.appbrewery.com - and use postman to register your user & get the token.
 Follow the details below from the documentation
